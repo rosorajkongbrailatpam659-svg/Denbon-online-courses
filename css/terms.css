@@ -1,0 +1,14 @@
+.trm {
+    margin-top: 10rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.trm h1{
+    text-align: center;
+}
+
+.trm p {
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}

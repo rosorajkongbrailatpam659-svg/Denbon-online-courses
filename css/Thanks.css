@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+background-image: url(/image/thanks.jpg);
+background-size: cover;
+background-attachment: fixed; 
+}
+.site-form .title {
+    text-align: center;
+}
+
+.site-form h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.testi {
+    margin-top: 7rem;
+    padding: 80px 0;
+}
+
+.site-form p {
+    margin-bottom: 25px;
+}
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.site-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #1800298f;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+@media (max-width: 800px) {
+    .frm-inputs{
+        width: 80vw;
+    }
+    body {
+        background-image: url(/image/thanks2.jpg);
+        background-attachment: fixed;
+        background-size: contain;
+        }
+        
+}
